@@ -2,14 +2,12 @@
 
 namespace EasySwoole\Memcache;
 
-use EasySwoole\Spl\SplEnum;
-
 /**
  * Memcache Status
  * Class Status
  * @package Memcache
  */
-class Status extends SplEnum
+class Status
 {
 
     const STAT_NO_ERROR = 0x0000;
